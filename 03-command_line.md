@@ -20,7 +20,21 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > | COMMAND                            | DESCRIPTION                                          |
+> > | ---------------------------------- | ---------------------------------------------------- |
+> > | man "command"                      | Shows information about the command                  |
+> > | ls folder                          | Shows current working directory path                 |
+> > | mkdir "directory"                  | Creates a directory                                  |
+> > | rmdir "directory"                  | Deletes a directory                                  |
+> > | touch "file name"                  | Creates a file using touch command                   |
+> > | rm "file name"                     | Deletes a file                                       |
+> > | mv "file name (1)" "file name (2)" | Renames the file                                     |
+> > | ls -a                              | Shows hidden files in current directory              |
+> > | mv "file name" "directory"         | Moves or copies a file from one directory to another |
+> > | cat "file name"                    | Shows the contents of file                           |
+> > | ifconfig -a                        | Displays all network interfaces and IP addresses     |
+> > | locate "name"                      | Finds files and directories by name                  |
+> > | grep pattern file                  | Searches for pattern in file                         |
 
 ---
 
@@ -35,7 +49,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > | COMMAND | DESCRIPTION                                                  |
+> > | ------- | ------------------------------------------------------------ |
+> > | ls      | Shows current directory files                                |
+> > | ls -a   | Shows hidden files in directory listing                      |
+> > | ls -l   | Lists files in the directory by owner, group name, file size, last modified timestamp, and file name |
+> > | ls -lh  | Same as -l (previous command) except the file size is in kilobytes |
+> > | ls -lah | Same as -lah (previous command), but includes hidden files   |
+> > | ls -t   | Simple file listing (same as ls), but sorted by date & time (newest to oldest) |
+> > | ls -glp | Similar to -l, but includes backslashes at the end of directories and excludes file owner information |
 
 ---
 
@@ -43,7 +65,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > | COMMAND | DESCRIPTION                                                  |
+> > | ------- | ------------------------------------------------------------ |
+> > | ls -F   | Flags file name                                              |
+> > | ls -d   | Lists only directories                                       |
+> > | ls -m   | Comma-separated list                                         |
+> > | ls -la  | Lists all files in the long format                           |
+> > | ls -go  | Lists files in the directory by file size, last modified timestamp, and file name |
 
 ---
 
@@ -51,7 +79,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The `xargs` command in UNIX is a command line utility for building an execution pipeline from standard input. Whilst tools like [`grep`](https://shapeshed.com/unix-grep/) can accept standard input as a parameter, many other tools cannot. Using `xargs` allows tools like `echo` and [`rm`](https://shapeshed.com/unix-rm/) and [`mkdir`](https://shapeshed.com/unix-mkdir/) to accept standard input as arguments. (George Ornbo | Shapeshed)
 
  
 
